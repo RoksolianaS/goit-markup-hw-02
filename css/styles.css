@@ -130,12 +130,8 @@ color:#404bbf;
 
 }
 
-.team-name-container {
-    background-color: #FFFFFF;
-    
-}
-
 .team-item{
+background-color: var(--secondary-text-color);
 
 }
 .team-title {
