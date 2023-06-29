@@ -12,16 +12,7 @@ body {
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+    
 }
 
 .link {
@@ -133,10 +124,10 @@ color:#404bbf;
 }
 
 .team {
-    background-color: var(--secondary-text-color);
+    background-color: #F4F4FD;
 }
 .team-list {
-
+    background-color: #FFFFFF
 }
 
 .team-item{
