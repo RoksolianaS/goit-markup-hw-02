@@ -89,11 +89,10 @@ ul {
 .header-menu {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
     
 }
 .header-menu-item {
-    
+    padding: 24px 0;
 }
 .header-menu-link {
     color: var(--main-text-color);
