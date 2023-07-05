@@ -68,7 +68,7 @@ ul {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    padding: 24px 0;
+    
 }
 .header-logo {
     color: #4d5ae5;
@@ -91,14 +91,16 @@ ul {
     
 }
 .header-menu-item {
-    
+    padding: 24px 0;
 }
 .header-menu-link {
     color: var(--main-text-color);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;  }     
+    letter-spacing: 0.02em;  
+    padding: 24px 0;
+}     
 
 .header-menu-link:hover,
 .header-menu-link:focus {
