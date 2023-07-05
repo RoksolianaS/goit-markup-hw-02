@@ -63,7 +63,7 @@ ul {
 .header-container{
     display: flex;
     align-items: center;
-
+    padding: 24px 0;
 }
 .header-navigation{
     display: flex;
@@ -92,7 +92,7 @@ ul {
     
 }
 .header-menu-item {
-    padding: 24px 0;
+    
 }
 .header-menu-link {
     color: var(--main-text-color);
