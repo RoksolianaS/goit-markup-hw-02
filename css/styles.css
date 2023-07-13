@@ -97,7 +97,7 @@ ul {
 }
 .current{
     position: relative;
-    color: #404BBF;
+    color: #404bbf;
 }
 .current::after {
     content: "";
