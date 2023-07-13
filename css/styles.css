@@ -389,7 +389,8 @@ ul {
     overflow: hidden;
 }
 .portfolio-image:hover .portfolio-cover-text{
-    transform: translateY(0)
+    transform: translateY(0);
+    cursor: pointer;
 }
 
 .portfolio-cover-text{
