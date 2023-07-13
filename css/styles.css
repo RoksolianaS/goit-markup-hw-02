@@ -76,7 +76,7 @@ ul {
     
 }
 .header-logo {
-    color: #4d5ae5;
+    color: #404bbf;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -149,7 +149,7 @@ ul {
 
 .hero{
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),url(../images/people-office.jpg);
-    max-width: 1140px;
+    max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
