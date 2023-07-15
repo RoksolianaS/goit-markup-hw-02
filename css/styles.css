@@ -423,6 +423,7 @@ ul {
 .portfolio-list-link {
     display: block;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .portfolio-list-link:hover,
@@ -435,12 +436,10 @@ ul {
     position: relative;
     overflow: hidden;
 }
-
-.portfolio-image:hover,.portfolio-image:focus .portfolio-cover-text {
+.portfolio-list-link:is(:hover, :focus) .portfolio-cover-text {
     transform: translateY(0%);
     cursor: pointer;
 }
-
 
 .portfolio-cover-text {
     position: absolute;
