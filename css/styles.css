@@ -435,7 +435,11 @@ ul {
     position: relative;
     overflow: hidden;
 }
-.portfolio-image:is(:hover, :focus) .portfolio-cover-text {
+.portfolio-image:hover .portfolio-cover-text {
+    transform: translateY(0%);
+    cursor: pointer;
+}
+.portfolio-image:focus .portfolio-cover-text {
     transform: translateY(0%);
     cursor: pointer;
 }
