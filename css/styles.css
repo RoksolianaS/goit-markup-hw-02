@@ -435,14 +435,12 @@ ul {
     position: relative;
     overflow: hidden;
 }
-.portfolio-image:hover .portfolio-cover-text {
+
+.portfolio-image:hover,.portfolio-image:focus .portfolio-cover-text {
     transform: translateY(0%);
     cursor: pointer;
 }
-.portfolio-image:focus .portfolio-cover-text {
-    transform: translateY(0%);
-    cursor: pointer;
-}
+
 
 .portfolio-cover-text {
     position: absolute;
