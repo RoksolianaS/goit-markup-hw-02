@@ -214,12 +214,14 @@ ul {
 
 .advantages-list {
     display: flex;
-    gap: 24px;
+    flex-direction: column;
+    /* gap: 24px; */
 
 }
 
 .advantages-item {
-    width: calc((100% - 24px * 3) / 4);
+    width: 100%;
+    /* width: calc((100% - 24px * 3) / 4); */
 }
 
 
@@ -908,3 +910,4 @@ ul {
     visibility: hidden;
     pointer-events: none;
 }
+
